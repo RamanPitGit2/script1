@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ps -ef --sort=pid|grep -v 'ps -ef --sort=pid' > new_file1.txt
+
